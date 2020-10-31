@@ -8,7 +8,7 @@
           }
         },
         "color": {
-          "value": "#11ff65"
+          "value": ["#4db873", "#404a44", "#1f2120"]
         },
         "shape": {
           "type": "circle",
@@ -36,17 +36,17 @@
           }
         },
         "size": {
-          "value": 2,
+          "value": 3,
           "random": true,
           "anim": {
             "enable": true,
             "speed": 17.444323534053805,
-            "size_min": 14.952277314903261,
+            "size_min": 5,
             "sync": false
           }
         },
         "line_linked": {
-          "enable": true,
+          "enable": false, 
           "distance": 150,
           "color": "#ffffff",
           "opacity": 0.4,
@@ -54,11 +54,11 @@
         },
         "move": {
           "enable": true,
-          "speed": 4.919363434371588,
-          "direction": "none",
+          "speed": 1,
+          "direction": "top",
           "random": true,
           "straight": false,
-          "out_mode": "bounce",
+          "out_mode": "out",
           "bounce": false,
           "attract": {
             "enable": false,
