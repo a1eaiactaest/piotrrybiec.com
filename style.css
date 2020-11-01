@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 .root {
     width: 100%;
@@ -20,3 +21,37 @@ body {
     position: absolute;
 }
 
+@keyframes fadein  {
+
+    0% {
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100%
+    {
+        opacity: 1;
+        filter: blur(0);
+    }
+
+}
+#full { 
+    font: Roboto;
+    color: #b2bfb2;
+    margin-top: 20vh;
+    font-size: 3.5em;
+    width: 6em;
+    text-align: center;
+    font-weight: 1;
+    letter-spacing: 0.3em;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    opacity: 0;
+    filter: blur(5px);
+    animation-name: fadein;
+}
+
+#sname {
+    font-size: 1.2em;
+    color: #b2bfb2; /*#8fbc8f*/
+
+}
