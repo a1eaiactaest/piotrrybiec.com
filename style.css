@@ -43,10 +43,10 @@ body {
     text-align: center;
     font-weight: 1;
     letter-spacing: 0.3em;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-duration: 2s;
-    opacity: 0;
-    filter: blur(5px);
+    /*opacity: 1;
+    filter: blur(5px);*/
     animation-name: fadein;
 }
 
