@@ -80,11 +80,12 @@ body {
     /*pointer-events: none;*/
 }
 
-#projects {
+.item {
     color: #E4572E;
     text-decoration: none;
     transition: .2s;
 }
-#projects:hover {
+.item:hover {
     color: #d9d9d9;
+    font-size: 110%;
 }
