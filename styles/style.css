@@ -17,6 +17,7 @@ body {
 }
 .particles-js-canvas-el {
     position: absolute;
+    z-index: -1;
 }
 @keyframes fadein  {
 
@@ -70,9 +71,20 @@ body {
     /*opacity: 1;
     filter: blur(5px);*/
     animation-name: fadein;
+    pointer-events: all;
 
 }
+
 #namehead {
     margin: 10%;
+    /*pointer-events: none;*/
+}
 
+#projects {
+    color: #E4572E;
+    text-decoration: none;
+    transition: .2s;
+}
+#projects:hover {
+    color: #d9d9d9;
 }
