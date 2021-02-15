@@ -32,7 +32,7 @@ body {
 }
 #full { 
     font: Roboto;
-    color: #b2bfb2;
+    color: #d9d9d9;
     margin-top: 20vh;
     font-size: 3.5em;
     width: 6em;
@@ -55,14 +55,14 @@ body {
 
 #sname {
     font-size: 1.2em;
-    color: #b2bfb2; /*#8fbc8f*/
+    color: #F2F5EA; /*#8fbc8f*/
 }
 
 #info {
     font: Roboto;
     font-size: 1em;
-    color: #8fbc8f;
-    font-weight: 100;
+    color: #E4572E;
+    font-weight: bolder;
     text-align: center;
     letter-spacing: 0.3em;
     animation-delay: 0s;
