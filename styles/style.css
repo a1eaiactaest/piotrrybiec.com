@@ -18,16 +18,19 @@ body {
   position: fixed;
   background-color: #262626;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 50% ;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-self: center;
+  height: 100vh;
 }
 
 .particles-js-canvas-el {
   position: absolute;
-  z-index: -1;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes fadein  {
@@ -89,6 +92,7 @@ body {
 #namehead {
   margin: 10%;
   /*pointer-events: none;*/
+  height: 100vh;
 }
 
 .item {
