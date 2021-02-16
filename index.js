@@ -9,6 +9,8 @@ function smoothScroll()
 }
 
 window.onload = function() {
-  var arrow = document.getElementById("arrow", "projects-button");
+  var arrow = document.getElementById("arrow");
+  var projects_button = document.getElementById("projects-button")
   arrow.onclick = smoothScroll;
+  projects_button.onclick = smoothScroll;
 }
