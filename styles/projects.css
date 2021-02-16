@@ -41,11 +41,14 @@ body {
     filter: blur(0);
   }
 }
+#namehead {
+  margin: 10;
+}
 
-#full { 
+#header {
   font: Roboto;
   color: #d9d9d9;
-  margin-top: 20vh;
+  margin-top: 10vh;
   font-size: 3.5em;
   width: 6em;
   text-align: center;
@@ -63,40 +66,5 @@ body {
   /*opacity: 1;
   filter: blur(5px);*/
   animation-name: fadein;
-}
-
-#sname {
-  font-size: 1.2em;
-  color: #F2F5EA; /*#8fbc8f*/
-}
-
-#info {
-  font: Roboto;
-  font-size: 1em;
-  color: #E4572E;
-  font-weight: bolder;
-  text-align: center;
-  letter-spacing: 0.3em;
-  animation-delay: 0s;
-  animation-duration: 3s;
-  /*opacity: 1;
-  filter: blur(5px);*/
-  animation-name: fadein;
-  pointer-events: all;
-
-}
-
-#namehead {
-  margin: 10%;
-  /*pointer-events: none;*/
-}
-
-.item {
-  color: #E4572E;
-  text-decoration: none;
-  transition: .2s;
-}
-.item:hover {
-  color: #d9d9d9;
-  font-size: 110%;
+  pointer-events: none;
 }
